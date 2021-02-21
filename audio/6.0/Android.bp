@@ -12,6 +12,9 @@ package {
 hidl_interface {
     name: "android.hardware.audio@6.0",
     root: "android.hardware",
+    vndk: {
+        enabled: true,
+    },
     srcs: [
         "types.hal",
         "IDevice.hal",

@@ -12,6 +12,9 @@ package {
 hidl_interface {
     name: "android.hardware.vr@1.0",
     root: "android.hardware",
+    vndk: {
+        enabled: true,
+    },
     srcs: [
         "IVr.hal",
     ],
