@@ -13,6 +13,9 @@ package {
 hidl_interface {
     name: "android.hardware.automotive.can@1.0",
     root: "android.hardware",
+    vndk: {
+        enabled: true,
+    },
     srcs: [
         "types.hal",
         "ICanBus.hal",
